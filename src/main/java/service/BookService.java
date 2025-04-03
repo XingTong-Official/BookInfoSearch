@@ -1,7 +1,6 @@
 package service;
 
 import entity.Book;
-
 public interface BookService {
-    public Book findBookById(int id);
+    Book findBookById(int id);
 }
